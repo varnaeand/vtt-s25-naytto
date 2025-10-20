@@ -108,6 +108,7 @@ header {
     align-items: center;
     width: 50%;
     height: 100%;
+    min-width: 280px;
 }    
 
 .ylapalkki__sisu__vasen-puoli__logo {
