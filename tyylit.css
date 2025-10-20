@@ -599,7 +599,7 @@ footer {
     }
 
     .footer__sisu__sarake__linkki {
-        overflow: scroll;
+        overflow: hidden;
     }
 
     .sivun-sisalto {
