@@ -13,5 +13,6 @@ https://www.frontendpractice.com/projects/abstract
 
 - HTML5 & CSS3
 
+https://varnaeand.github.io/vtt-s25-naytto/abstract.html
 
 
