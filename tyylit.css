@@ -612,11 +612,16 @@ footer {
 
     .ylapalkki__sisu {
         display: block;
+        height: 50%;
+    }
+
+    .ylapalkki__sisu__oikea-puoli {
+    justify-content: flex-start;
     }
 
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 
     :popover-open {
         display: none;
