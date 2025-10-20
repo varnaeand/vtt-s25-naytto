@@ -1,13 +1,14 @@
-HTML- ja CSS-projekti, joka on inspiroitunut Abstract-sivustosta, mutta täysin oma tulkintani.
+# HTML- ja CSS-projekti, joka on inspiroitunut Abstract-sivustosta, mutta täysin oma tulkintani.
 
-Ominaisuudet
+## Ominaisuudet
 
-Moderni, minimalistinen ulkoasu
+- Moderni, minimalistinen ulkoasu
 
-Responsiivinen eri laitteilla
+- Responsiivinen eri laitteilla
 
-Räätälöidyt tyylit ja elementit
+## Räätälöidyt tyylit ja elementit
 
-Teknologiat
+- Teknologiat
 
-HTML5 & CSS3
+- HTML5 & CSS3
+
