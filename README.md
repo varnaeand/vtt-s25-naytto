@@ -1,4 +1,13 @@
-# palautus-kansio
+HTML- ja CSS-projekti, joka on inspiroitunut Abstract-sivustosta, mutta täysin oma tulkintani.
 
-Tee tähän kansioon työsi.
- 
+Ominaisuudet
+
+Moderni, minimalistinen ulkoasu
+
+Responsiivinen eri laitteilla
+
+Räätälöidyt tyylit ja elementit
+
+Teknologiat
+
+HTML5 & CSS3
