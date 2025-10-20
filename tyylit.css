@@ -656,6 +656,7 @@ footer {
 
 input:focus {
     outline: none;
+    border: none;
 }
 
 :popover-open li:nth-child(1) {
