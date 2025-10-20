@@ -667,6 +667,7 @@ footer {
   width: 28px;
   height: 28px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .ylapalkki__sisu__oikea-puoli__valikko .kuvake--sulje {
