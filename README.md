@@ -1,4 +1,4 @@
-# HTML- ja CSS-projekti, joka on inspiroitunut Abstract-sivustosta, mutta täysin oma tulkintani.
+# HTML- ja CSS-projekti, joka on inspiroitunut Abstract-sivustosta.
 https://www.frontendpractice.com/projects/abstract
 
 ## Ominaisuudet
@@ -12,5 +12,6 @@ https://www.frontendpractice.com/projects/abstract
 - Teknologiat
 
 - HTML5 & CSS3
+
 
 
