@@ -608,6 +608,14 @@ footer {
 
 }
 
+@media (max-width: 380px) {
+
+    .ylapalkki__sisu {
+        display: block;
+    }
+
+}
+
 @media (min-width: 1200px){
 
     :popover-open {
