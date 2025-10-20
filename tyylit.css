@@ -1,0 +1,668 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.root {
+    --leveys-sivu: 1900px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+}
+
+.banneri {
+    height: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3)),url('banneri.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.banneri__otsikko {
+    margin: 35px;
+    font-size: 35px;
+    font-family: monospace;
+    text-shadow: 0px 0px 20px #ff00c9;
+}
+
+.banneri__lista {
+    list-style: none;
+}
+
+.banneri__lista__osa {
+    margin: 8px;
+    font-family: monospace;
+    list-style: disc;
+}
+
+.banneri__lista__osa a {
+    color: #00f2ff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.banneri__lista__osa a:hover {
+    color: #ffd000;
+    text-decoration: underline;
+}
+
+.apua {
+    position: fixed;
+    bottom: 14px;
+    right: 20px;
+    display: flex;
+    background-color: rgb(76, 95, 213);
+    color: white;
+    padding: 0px 22px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    z-index: 1000;
+    font-weight: bold;
+}
+
+.apua img {
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.ylapalkki {
+    min-height: 88px;
+    background: #1c1c1c;
+    display: flex;
+}
+
+.ylapalkki__sisu {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 1900px;
+    height: 54px;
+    max-width: 87%;
+}
+
+.ylapalkki__sisu__vasen-puoli {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}    
+
+.ylapalkki__sisu__vasen-puoli__logo {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ylapalkki__sisu__vasen-puoli__logo:hover {
+    color: #d4d4d4;
+}
+
+.ylapalkki__sisu__vasen-puoli__logo:hover > img {
+    filter: brightness(0) saturate(100%) invert(90%) sepia(0%) saturate(609%) hue-rotate(194deg) brightness(90%) contrast(85%);
+}
+
+.ylapalkki__sisu__vasen-puoli__logo__kuvake {
+    padding-right: 4px;
+    height: 36px;
+}
+
+.ylapalkki__sisu__vasen-puoli__logo__teksti {
+    margin-top: 1px;
+}
+
+.ylapalkki__sisu__vasen-puoli__helpcenter {
+    border-left: 2px solid #fff;
+    padding-left: 13px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.ylapalkki__sisu__vasen-puoli__helpcenter:hover {
+    text-decoration: underline;
+}
+
+.ylapalkki__sisu__oikea-puoli {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+.ylapalkki__sisu__oikea-puoli__hae {
+    width: 100%;
+    max-width: 265px;
+}
+
+.ylapalkki__sisu__oikea-puoli__hae input {
+    font-size: 19px;
+    padding: 0px 6px 0px 17px;
+    border-radius: 8px;
+    border: none;
+    height: 52px;
+}
+
+.ylapalkki__sisu__oikea-puoli__submit button {
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 0px 20px 0px 22px;
+    color: #ffffff;
+    min-width: 230px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.ylapalkki__sisu__oikea-puoli__submit a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 1px;
+}
+
+.ylapalkki__sisu__oikea-puoli__kirjaudu button {
+    background-color: #4C5FD5;
+    border-radius: 8px;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    word-spacing: 2px;
+    width: 140px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    height: 50px;
+}
+
+.ylapalkki__sisu__oikea-puoli__kirjaudu button:hover {
+    background: #ffffff;
+    transition: 0.5s;   
+}
+
+.ylapalkki__sisu__oikea-puoli__kirjaudu button:hover > a{
+    color: black;
+}
+
+.ylapalkki__sisu__oikea-puoli__kirjaudu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sivun-sisalto {
+
+}
+
+.sivun-sisalto__ylaosa {
+    background-color: #DADBF1;
+    height: 397px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.sivun-sisalto__ylaosa__sisu {
+    margin: auto;
+    margin-top: 29px;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+}
+
+.sivun-sisalto__ylaosa__sisu h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 79px;
+    font-weight: 400;
+    letter-spacing: -3px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sivun-sisalto__ylaosa__sisu__hae input {
+    width: 720px;
+    max-width: 100%;
+    font-size: 19px;
+    padding: 21px 0px 21px 16px;
+    margin-top: 1px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0 5px 12px -2px rgb(0 0 0 / 20%);
+    background-image: url('right\ arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right 13px center;
+}
+
+.sivun-sisalto__ylaosa__sisu__hae input:hover {
+    border: 1px solid #4C5FD5;
+    background-image: url('right\ arrow\ blue.svg');
+}
+
+.sivun-sisalto__alaosa {
+
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista {
+    max-width: 1600px;
+    display: flex;
+    margin: auto;
+    margin-top: 144px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista__osa {
+    position: relative;
+    display: flex;
+    width: 50%;
+    min-height: 115px;
+    max-height: 206px;
+    margin-bottom: 58px;
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista__osa__vasen {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista__osa__vasen__img {
+    max-width: 110px;
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista__osa__oikea {
+    position: relative;
+    padding: 0 25px 0 15px;
+    width: 100%;
+    color: #191a1b;
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__otsikko {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    transform: scaleY(0.9);
+    margin-bottom: 15px;
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__teksti {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    transform: scaleY(0.95);
+}
+
+.sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__linkki {
+    color: #4C5FD5;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background: #000000;
+    height: 402px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+
+.footer__sisu {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1900px;
+    position: relative;
+    font-family: 'Robot', sans-serif;
+    padding-top: 25px;
+}
+
+.footer__sisu__sarake {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer__sisu__sarake__otsikko {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    transform: scaleY(0.9);
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+.footer__sisu__sarake__linkki {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+.footer__sisu__sarake__email {
+    margin-top: 30px;
+}
+
+.footer__sisu__sarake__copyright {
+    position: absolute;
+    right: 0;
+    top: 208px;
+}
+
+.footer__sisu__sarake__copyright__kuvake {
+    width: 40px;
+    margin-left: -5px;
+    margin-top: -6px;
+    margin-bottom: 6px;
+}
+
+.footer__sisu__sarake__copyright p {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 550px) {
+
+    .sisalto__alaosa__kategoriat__lista__osa {
+        min-height: 115px;
+        width: 50%; 
+    }
+
+}
+
+@media (min-width: 768px) {
+    .sivun-sisalto__ylaosa__sisu__hae {
+        min-width: 720px;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    .ylapalkki__sisu__oikea-puoli__hae-kuvake {
+        display: none;
+    }
+
+    .ylapalkki__sisu__oikea-puoli__valikko {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1800px) {
+
+    .sivun-sisalto__alaosa {
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 1550px) {
+
+    .sivun-sisalto__alaosa__kategoriat__lista__osa {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .footer__sisu {
+        width: 85%;
+    }
+
+    .footer__sisu__sarake {
+        width: 15%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .banneri {
+        font-size: 14px;  
+    }
+
+    .banneri__otsikko {
+        font-size: 30px;
+    }
+
+    .ylapalkki__sisu__oikea-puoli__hae {
+        display: none;
+    }
+
+    .ylapalkki__sisu__oikea-puoli__submit {
+        display: none;
+    }
+
+    .ylapalkki__sisu__oikea-puoli__kirjaudu {
+        display: none;
+    }
+
+    .ylapalkki__sisu__oikea-puoli__hae-kuvake {
+        width: 40px;
+        border: none;
+        background: none;
+    }
+
+    .ylapalkki__sisu__oikea-puoli__valikko {
+        width: 40px;
+        border: none;
+        background: none;
+    }
+
+    .ylapalkki__sisu__oikea-puoli {
+        gap: 0;
+    }
+
+    .sivun-sisalto__alaosa__kategoriat__lista__osa {
+        max-height: 440px;
+    }
+
+}
+
+@media (max-width: 1030px) {
+
+    footer {
+        height: 100%;
+    }
+
+    .footer__sisu {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 180px;
+    }
+
+    .footer__sisu__sarake {
+        flex: 30%;
+        margin-right: 30px;
+    }
+
+    .footer__sisu__sarake__copyright {
+        top: 450px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .banneri {
+        font-size: 14px; 
+    }
+
+    .banneri__otsikko {
+        font-size: 25px;
+    }
+
+    .banneri__lista__osa {
+        margin: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ylapalkki__sisu {
+        max-width: 97%;
+    }
+
+    .sivun-sisalto__ylaosa__sisu {
+        display: inline;
+    }
+
+    .sivun-sisalto__ylaosa__sisu h2 {
+        font-size: 63px;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    .sivun-sisalto__alaosa__kategoriat__lista {
+        flex-direction: column;
+
+    }
+    
+    .sivun-sisalto__alaosa__kategoriat__lista__osa {
+        max-height: 440px;
+        width: 100%;
+    }
+
+    .sivun-sisalto__ylaosa__sisu__hae {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 720px;
+        width: 90%;
+    }
+
+    .sivun-sisalto__ylaosa__sisu__hae input {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .banneri__lista {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .footer__sisu__sarake__copyright {
+        left: 0;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .sivun-sisalto__ylaosa__sisu h2 {
+        font-size: 38px;
+    }
+
+    .footer__sisu__sarake__linkki {
+        overflow: scroll;
+    }
+
+    .sivun-sisalto {
+        overflow: hidden;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    :popover-open {
+        display: none;
+    }
+}
+
+:popover-open {
+    width: 100%;
+    background: #1c1c1c;
+    color: #ffffff;
+    height: 212px;
+    border: 2px solid #7c7c7c;
+    margin: 237px 0 0 0;
+    border-width: 2px 0 0 0;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+:popover-open ul {
+    list-style: none;
+    padding: 0;
+}
+
+:popover-open li {
+    padding: 30px 0 10px 0;
+    cursor: pointer;
+}
+
+:popover-open li:nth-child(1) {
+    border-bottom: 2px solid #7c7c7c;
+    max-width: 570px;
+    margin: auto;
+    margin-bottom: -13px;
+    padding-bottom: 22px;
+    width: 60%
+}
+
+.ylapalkki__sisu__oikea-puoli__valikko .kuvake {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+.ylapalkki__sisu__oikea-puoli__valikko .kuvake--sulje {
+  display: none;
+}
+
+body:has(:popover-open) .ylapalkki__sisu__oikea-puoli__valikko .kuvake--valikko {
+  display: none;
+}
+
+body:has(:popover-open) .ylapalkki__sisu__oikea-puoli__valikko .kuvake--sulje {
+  display: inline;
+}

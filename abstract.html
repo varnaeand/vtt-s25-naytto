@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="tyylit.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="banneri">
+
+                <h2 class="banneri__otsikko">Sivu on harjoitustyö.</h2>
+
+                <ul class="banneri__lista">
+
+                    <li class="banneri__lista__osa">Referenssi: <a href="https://help.goabstract.com/hc/en-us">Abstract</a></li>
+                    <li class="banneri__lista__osa">Tehtävänanto: <a href="https://www.frontendpractice.com/projects/abstract">abstract-projektisivu</a> @ <a href="https://www.frontendpractice.com/">frontendpractice.com</a></li>
+                    <li class="banneri__lista__osa">ikonit: <a href="https://fonts.google.com/icons">google fonts - material icons</a></li>
+                    <li class="banneri__lista__osa">fontit: <a href="https://fonts.google.com/">google fonts</a></li>
+                    <li class="banneri__lista__osa">Suunniteltu 2200px desktopille, josta johdettu pienemmät responsiiviset koot.</li>
+
+                </ul>
+
+            </div>
+
+            <div class="ylapalkki">
+
+                <button class="apua">
+                    <img src="apua.svg">
+                    <p>Help</p>
+                </button>
+
+                <div class="ylapalkki__sisu">
+
+                    <div class="ylapalkki__sisu__vasen-puoli">
+
+                        <a class="ylapalkki__sisu__vasen-puoli__logo">
+                            <img class="ylapalkki__sisu__vasen-puoli__logo__kuvake" src="logo.svg" alt="logo">
+                            <div class="ylapalkki__sisu__vasen-puoli__logo__teksti">Contract</div>
+                        </a>                       
+
+                        <a class="ylapalkki__sisu__vasen-puoli__helpcenter">Help Center</a>
+
+                    </div>
+
+                    <div class="ylapalkki__sisu__oikea-puoli">
+
+                        <button class="ylapalkki__sisu__oikea-puoli__hae-kuvake">
+                            <img src="magnifying-glass-solid-full.svg">
+                        </button>
+
+                        <button class="ylapalkki__sisu__oikea-puoli__valikko" popovertarget="menu" aria-label="Valikko">
+
+                            <img src="bars-solid-full.svg" alt="Valikko" class="kuvake kuvake--valikko">
+                            <img src="x.svg" alt="Sulje" class="kuvake kuvake--sulje">
+                            
+                        </button>
+
+                            <div popover id="menu">
+                            <ul>
+                                <li>Submit a request</li>
+                                <li>Sign in</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="ylapalkki__sisu__oikea-puoli__hae">
+
+                            <input type="text" placeholder="Search">
+
+                        </div>
+
+                        <div class="ylapalkki__sisu__oikea-puoli__submit">
+
+                            <button>
+
+                                <a href="#">Submit a request</a>
+
+                            </button>
+
+                        </div>
+
+                        <div class="ylapalkki__sisu__oikea-puoli__kirjaudu">
+
+                            <button>
+
+                                <a href="#">Sign in</a>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <div class="sivun-sisalto">
+
+            <div class="sivun-sisalto__ylaosa">
+
+                <div class="sivun-sisalto__ylaosa__sisu">
+
+                    <h2>How can we help?</h2>
+
+                    <div class="sivun-sisalto__ylaosa__sisu__hae">
+
+                        <input type="text" placeholder="Search">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="sivun-sisalto__alaosa">
+
+                <div class="sivun-sisalto__alaosa__kategoriat">
+
+                    <div class="sivun-sisalto__alaosa__kategoriat__lista">
+
+                        <div class="sivun-sisalto__alaosa__kategoriat__lista__osa">
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen">                              
+
+                                <img class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen__img" src='cat1.jpg'>
+
+                            </div>
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea">
+
+                                <h4 class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__otsikko">  
+                                    Using Contract
+                                </h4>
+                                
+                                <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__teksti">
+                                    Abstract lets you manage, version, and document your designs in one place.
+                                </div>
+    
+                                <a href="#" class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__linkki">
+                                    Learn More →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="sivun-sisalto__alaosa__kategoriat__lista__osa">
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen">                              
+
+                                <img class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen__img" src='cat4.jpg'>
+
+                            </div>
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea">
+
+                                <h4 class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__otsikko">  
+                                    Manage your account
+                                </h4>
+                                
+                                <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__teksti">
+                                    Configure your account settings, such as your email, profile details, and password.
+                                </div>
+    
+                                <a href="#" class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__linkki">
+                                    Learn More →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="sivun-sisalto__alaosa__kategoriat__lista__osa">
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen">                              
+
+                                <img class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen__img" src='cat2.jpg'>
+
+                            </div>
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea">
+
+                                <h4 class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__otsikko">  
+                                    Manage organizations, teams, and projects
+                                </h4>
+                                
+                                <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__teksti">
+                                    Use Abstract organizations, teams, and projects to organize your people and your work.
+                                </div>
+    
+                                <a href="#" class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__linkki">
+                                    Learn More →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="sivun-sisalto__alaosa__kategoriat__lista__osa">
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen">                              
+
+                                <img class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen__img" src='cat5.jpg'>
+
+                            </div>
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea">
+
+                                <h4 class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__otsikko">  
+                                    Manage billing
+                                </h4>
+                                
+                                <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__teksti">
+                                    Change subscriptions and payment details.
+                                </div>
+    
+                                <a href="#" class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__linkki">
+                                    Learn More →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="sivun-sisalto__alaosa__kategoriat__lista__osa">
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen">                              
+
+                                <img class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen__img" src='cat3.jpg'>
+
+                            </div>
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea">
+
+                                <h4 class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__otsikko">  
+                                    Authenticate to Contract
+                                </h4>
+                                
+                                <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__teksti">
+                                    Set up and configure SSO, SCIM, and Just-in-Time provisioning.
+                                </div>
+    
+                                <a href="#" class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__linkki">
+                                    Learn More →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="sivun-sisalto__alaosa__kategoriat__lista__osa">
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen">                              
+
+                                <img class="sivun-sisalto__alaosa__kategoriat__lista__osa__vasen__img" src='cat6.jpg'>
+
+                            </div>
+
+                            <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea">
+
+                                <h4 class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__otsikko">  
+                                    Contract support
+                                </h4>
+                                
+                                <div class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__teksti">
+                                    Get in touch with a human.
+                                </div>
+    
+                                <a href="#" class="sivun-sisalto__alaosa__kategoriat__lista__osa__oikea__linkki">
+                                    Learn More →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <footer>
+
+                <div class="footer__sisu">
+
+                    <div class="footer__sisu__sarake">
+
+                        <h3 class="footer__sisu__sarake__otsikko">Contract</h3>
+
+                        <a href="#" class="footer__sisu__sarake__linkki">Start Trial</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Pricing</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Download</a>
+
+                    </div>
+
+                    <div class="footer__sisu__sarake">
+
+                        <h3 class="footer__sisu__sarake__otsikko">Resources</h3>
+
+                        <a href="#" class="footer__sisu__sarake__linkki">Blog</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Help Center</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Release Notes</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Status</a>
+
+                    </div>
+
+                    <div class="footer__sisu__sarake">
+
+                        <h3 class="footer__sisu__sarake__otsikko">Community</h3>
+
+                        <a href="#" class="footer__sisu__sarake__linkki">Twitter</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Linkedin</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Facebook</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Dribble</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Podcast</a>
+
+                    </div>
+
+                    <div class="footer__sisu__sarake">
+
+                        <h3 class="footer__sisu__sarake__otsikko">Company</h3>
+
+                        <a href="#" class="footer__sisu__sarake__linkki">About us</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Careers</a>
+                        <a href="#" class="footer__sisu__sarake__linkki">Legal</a>
+
+                        <div class="footer__sisu__sarake__email">
+                            <strong>Contact Us</strong>
+                            <a href="#" class="footer__sisu__sarake__linkki">info@contract.example</a>
+                        </div>
+
+                    </div>
+
+                    <div class="footer__sisu__sarake__copyright">
+                        <img class="footer__sisu__sarake__copyright__kuvake" src="logo.svg">
+                        <p>© Copyright 2025</p>
+                        <p>Contract Studio Design, Inc.</p>
+                        <p>All rights reserved</p>
+                    </div>
+
+                </div>
+
+            </footer>
+
+        </div>
+
+    </body>
+
+</html>
