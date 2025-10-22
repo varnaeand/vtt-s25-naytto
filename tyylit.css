@@ -171,10 +171,6 @@ header {
     height: 52px;
 }
 
-.ylapalkki__sisu__oikea-puoli__hae img {
-    cursor: pointer;
-}
-
 .ylapalkki__sisu__oikea-puoli__submit button {
     background: none;
     border: 1px solid #ffffff;
@@ -483,6 +479,7 @@ footer {
         width: 40px;
         border: none;
         background: none;
+        cursor: pointer;
     }
 
     .ylapalkki__sisu__oikea-puoli__valikko {
