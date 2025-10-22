@@ -171,6 +171,10 @@ header {
     height: 52px;
 }
 
+.ylapalkki__sisu__oikea-puoli__hae button {
+    cursor: pointer;
+}
+
 .ylapalkki__sisu__oikea-puoli__submit button {
     background: none;
     border: 1px solid #ffffff;
@@ -208,7 +212,7 @@ header {
 
 .ylapalkki__sisu__oikea-puoli__kirjaudu button:hover {
     background: #ffffff;
-    transition: 0.5s;   
+    transition: 0.5s;  
 }
 
 .ylapalkki__sisu__oikea-puoli__kirjaudu button:hover > a{
